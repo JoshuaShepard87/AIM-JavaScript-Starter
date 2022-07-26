@@ -11,6 +11,52 @@ h1{
     color: red;
 }
 
+#note{
+    text-align: center;
+    color: yellow;
+}
+
+.geth2{
+    color: purple;
+    text-align: center;
+}
+
+#fetchData{
+    color: greenyellow;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+#h3Fetch{
+    color: greenyellow;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fetchButton{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.returnedData{
+    color: greenyellow;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
 p{
     color: pink;
 }
@@ -33,6 +79,10 @@ p{
     margin-bottom: 20px;
 }
 
+#logo{
+    height: 56px;
+}
+
 button{
     background-color: #4CAF50; /* Green */
     border: none;
@@ -51,6 +101,41 @@ button{
     text-align: center;
 }
 
+.buttons{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.deleteButton{
+    background-color: red;
+}
+
+ul {
+    height: 3.45rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: green;
+  }
+
+/* 
 a{
     text-decoration: none;
     color: black;
@@ -59,7 +144,7 @@ a{
 
 a:hover{
     color: #4CAF50;
-} 
+}  */
 
 
 table {

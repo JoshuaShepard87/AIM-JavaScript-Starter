@@ -3,12 +3,18 @@
 <head>
 <title>Example</title>
 
-<!-- <link rel="stylesheet" href="example.css"> -->
+<link rel="stylesheet" href="example.css">
 </head>
 
 
 <body>
-
+  <ul>
+    <li><img id="logo" src="data:image/png;base64,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" alt="AIM image logo"></li>
+    <li><a href="www.google.com" id="link">Let's search for something!</a></li>
+    <li><a href="www.github.com/JoshuaShepard87" id="link">To Github we go!</a></li>
+    <li><a href="www.stackoverflow.com" id="link">Where all the cool kids hangout</a></li>
+    
+    </ul>  
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 <p><div class="blue">I am the color blue!</div></p>
@@ -16,8 +22,7 @@
 
 
 <div class="formClass">
-    <!-- <h1 style=" text-align: center; color: yellow !important;">Let's leave a note!</h1> -->
-    <h1>Let's leave a note!</h1>
+    <h1 id="note">Let's leave a note!</h1>
     <form id="post">
         <div class="titleComponent">
             
@@ -44,10 +49,10 @@
 
 
 
+  
+  
 
-  <a href="#">link text</a>
   <style>
-   
     </style>
     </head>
     <body>
@@ -68,10 +73,40 @@
         <td>Marco Gonzolez</td>
         <td>Marco.pollo@aol.com</td>
       </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Hannibal Burris</td>
+        <td>Hannibal@ericAndre.com</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Sheryl Crow</td>
+        <td>Alliwanttodois@havesomefun.com</td>
+      </tr>
+
+      <tr>
+        <td>4</td>
+        <td>Nick Kam</td>
+        <td>dandy_kam@goarmy.mil</td>
+      </tr>
       
     </table>
     
+    <div class="fetch">
+      <h2 class="geth2">Get some Data</h2>
+      <h3 id="h3Fetch">data will go here</h3>
+      <p id="fetchData"></p>
+      <div class="buttons">
+      <button class="fetchButton" onclick="fetching()">Fetch</button>
+      <button class="deleteButton" onclick="deleteData('fetchData')">Delete</button>
+      <button class="full" onclick="fetchLoop()">FETCH DATA</button>
+    </div>
+    </div>
   
-<!-- <script src = "example.js"></script> -->
+
+  
+<script src = "example.js"></script>
 </body>
 </html>
