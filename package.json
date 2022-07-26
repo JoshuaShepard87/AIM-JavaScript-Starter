@@ -1,0 +1,26 @@
+{
+  "name": "aim-javascript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "introduction.js",
+  "scripts": {
+    "start": "node introduction.js",
+    "start:nodemon": "nodemon introduction.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaShepard87/AIM-JavaScript-Starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshuaShepard87/AIM-JavaScript-Starter/issues"
+  },
+  "homepage": "https://github.com/JoshuaShepard87/AIM-JavaScript-Starter#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "nodemon": "^2.0.19",
+    "systeminformation": "^5.12.1"
+  }
+}
