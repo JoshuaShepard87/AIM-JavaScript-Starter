@@ -3,7 +3,6 @@ const si = require('systeminformation');
 const fs = require('fs');
 // variables
 
-
 let x = 5;
 let y = 4;
 
@@ -145,8 +144,8 @@ Adding NaN to "ba" turns NaN into the string "NaN" due to type conversion, gives
 
 // lets see if that is true!
 
-// console.log(('b' + 'a' + + 'a' + 'a'));
-
+console.log(('b' + 'a' + + 'a' + 'a'));
+console.log(+ 'a');
 //Thats baNaNas!
 
 
